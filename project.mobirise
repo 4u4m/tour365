@@ -45,7 +45,7 @@
     "gdpr": "",
     "google-analytics": "",
     "sitemapSwitcher": "on",
-    "uniqCompNum": 28,
+    "uniqCompNum": 45,
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png"
   },
@@ -128,7 +128,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-8\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-8\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
@@ -483,7 +483,7 @@
           "title": "궁금해요.",
           "subtitle": "여러분의 의견을&nbsp;",
           "text": "TOUR365는 회원을 위한 여행 전문 사이트입니다.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
             "action": "whitecns@naver.com",
             "alerts": {
@@ -556,6 +556,46 @@
         "order": 1
       },
       "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "PARIS",
+          "text": "Develop fully responsive, mobile-ready websites",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_anchor": "call1-p"
+        },
         {
           "_params": {
             "showTitle": true,
@@ -733,83 +773,78 @@
         },
         {
           "_styles": {
-            "th": {
-              "color": "#9fa3a7"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             }
           },
           "_params": {
+            "showMeta": true,
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgColor": "#eeeeee"
+          },
+          "title": "일정표",
+          "meta": "2018년 09월 30일(일) ~ 10월 7일(일) [6박 8일]\n<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-16"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "3",
+            "bgColor": "#eeeeee"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"assets/files/schedule.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">일정표 자세히 보기</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"assets/files/reservation.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">예약 바로가기</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-17"
+        },
+        {
+          "_params": {
             "showTitle": true,
-            "showSearch": false,
-            "rowСount": 4,
-            "colCount": "5",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showText": false,
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
-            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.4
-          },
-          "title": "여행 일정",
-          "search": "Search:",
-          "info1": "Showing",
-          "info2": "entries",
-          "info3": "(filtered from",
-          "info4": "total entries)",
-          "table": "<thead><tr><th>날짜</th><th>도시</th><th>교통</th><th>추천일정</th><th>식사</th></tr></thead><tbody><tr><td>1Day\n<br>9/30(일)</td><td>인 천\n<br>뮌 헨\n<br>슈반가우</td><td>08:30\n<br>\n<br>11:25\n<br>\n<br>15:35\n<br>16:30\n<br>\n<br>19:00</td><td>인천 국제공항 제1터미널 3층 출국청사 항공사 카운터미팅\n<br>인솔자 : 추후 별도 공지\n<br>✈ 루프트한자 항공(LH 719) 탑승하여 인천 국제공항 출발 \n<br>인천 ~ 뮌헨 : 비행 예정시간 약 11시간 10분 소요\n<br>뮌헨 국제공항 도착\n<br>입국수속 후 가이드 미팅\n<br>슈반가우로 이동 [약 150KM]\n<br>석식 후 \n<br>호텔 투숙 및 휴식\n<br>숙소 일급이상 호텔 혹은 동급 ★★★★</td><td>석:현지식</td></tr><tr><td>Caren Rials</td><td>35</td><td>2013-04-12</td><td>$445.500</td><td>$445.500</td></tr><tr><td>Leon Rogol</td><td>66</td><td>2016-05-22</td><td>$152.558</td><td>$152.558</td></tr><tr><td>Shala Barrera</td><td>70</td><td>2016-05-15</td><td>$459.146</td><td>$459.146</td></tr></tbody>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "table1",
-          "_anchor": "table1-o"
-        },
-        {
-          "_styles": {
-            ".display-1": {
-              "font-weight": "700"
-            },
-            ".lead": {
-              "color": "#fff",
-              "text-transform": "uppercase",
-              "margin-bottom": "0"
-            }
-          },
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": 2,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#16a085",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
             "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.3"
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
           },
-          "title": "PARIS",
-          "text": "Develop fully responsive, mobile-ready websites",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>",
+          "title": "특이사항",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseOneaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함</a>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseTwoaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">불포함사항</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseThreeaccordion1-y\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특전사항</a>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료 \r<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text2": "<p>싱글차지&nbsp;<br><span style=\"font-size: 1rem;\">개인사용비용 &nbsp;<br></span><span style=\"font-size: 1rem;\">명시된 관광지 외 입장료(일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">기타 매너팁(포터팁, 룸팁 등)</span></p>",
+          "text3": "<p>★ 식사시 현지지역 맥주 1잔 제공 \r<br><span style=\"font-size: 1rem;\">★ 맥주 테마투어 진행 &nbsp;<br></span><span style=\"font-size: 1rem;\">1)잉골슈타트 - 맥주순수령 스페셜투어(Spaten-Franziskaner Brauerei) &nbsp;<br></span><span style=\"font-size: 1rem;\">2)밤베르크 - 훈제맥주 브루어리 투어(Schlenkerla Rauchbier Tour) &nbsp;<br></span><span style=\"font-size: 1rem;\">3)하이델베르크 - 400년의 역사를 가진 대표적인 맥주집 방문(Vetter 예정) *맥주집의 경우 현지 사정으로 인하여 다른 곳으로 대체될 수 있습니다. &nbsp;<br></span><span style=\"font-size: 1rem;\">4)프라이징 - 독일에서 가장 오래된 브루어리(Weihenstephan Bier Tour) &nbsp;<br></span><span style=\"font-size: 1rem;\">★ 독일의 대표 축제인 맥주축제(옥토퍼페스트) 참관 및 식사</span></p>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "call1",
-          "_anchor": "call1-p"
+          "_name": "accordion1",
+          "_anchor": "accordion1-18"
         },
         {
           "_styles": {
@@ -879,7 +914,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-8\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-8\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
@@ -932,6 +967,784 @@
           ],
           "_name": "footer2",
           "_anchor": "footer2-l"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Page 2",
+        "meta_descr": "365일 내내 프로모션\n전문 MD가 3FACT 기반으로 실용적인 상품, 실속이 있는 상품, 실질적인 제품을 소개합니다.\n",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#95a5a6",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#233f5b",
+            "overlayOpacity": 0.8
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "TOUR365.NET",
+          "subtitle": "행복한 여행은 전문 여행사와 함께하세요.",
+          "text": "\"교외를 포함한 ‘파리 데파르트망(Department)’은 면적 2,844㎢, 인구 약 1,041만 명(2009)이다. 오랫동안 센 데파르트망의 수도였으나 1964년부터 파리만으로 독립 데파르트망이 되었다. 프랑스의 정치·경제·교통·학술·문화의 중심지일 뿐만 아니라 세계의 문화 중심지로, ‘꽃의 도시’라고 불리며..\"",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_styles": {
+            ".mbr-section-text": {
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "testimonials3-s"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Paris Special",
+          "meta": "By <b>TOUR365</b>&nbsp;posted July 20, 2018",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-t"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "#fff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1200x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1200x1600-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-7-1920x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-7-1920x1280-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1920.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1920-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1200x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-1200x1600-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1285.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1285-800x535.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-8-1920x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-8-1920x1280-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1600x1066-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "ALL",
+          "_name": "gallery2",
+          "_anchor": "gallery2-u"
+        },
+        {
+          "_styles": {
+            "th": {
+              "color": "#9fa3a7"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": 4,
+            "colCount": "5",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "여행 일정",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>날짜</th><th>도시</th><th>교통</th><th>추천일정</th><th>식사</th></tr></thead><tbody><tr><td>1Day\n<br>9/30(일)</td><td>인 천\n<br>뮌 헨\n<br>슈반가우</td><td>08:30\n<br>\n<br>11:25\n<br>\n<br>15:35\n<br>16:30\n<br>\n<br>19:00</td><td>인천 국제공항 제1터미널 3층 출국청사 항공사 카운터미팅\n<br>인솔자 : 추후 별도 공지\n<br>✈ 루프트한자 항공(LH 719) 탑승하여 인천 국제공항 출발 \n<br>인천 ~ 뮌헨 : 비행 예정시간 약 11시간 10분 소요\n<br>뮌헨 국제공항 도착\n<br>입국수속 후 가이드 미팅\n<br>슈반가우로 이동 [약 150KM]\n<br>석식 후 \n<br>호텔 투숙 및 휴식\n<br>숙소 일급이상 호텔 혹은 동급 ★★★★</td><td>석:현지식</td></tr><tr><td>Caren Rials</td><td>35</td><td>2013-04-12</td><td>$445.500</td><td>$445.500</td></tr><tr><td>Leon Rogol</td><td>66</td><td>2016-05-22</td><td>$152.558</td><td>$152.558</td></tr><tr><td>Shala Barrera</td><td>70</td><td>2016-05-15</td><td>$459.146</td><td>$459.146</td></tr></tbody>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-v"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "PARIS",
+          "text": "Develop fully responsive, mobile-ready websites",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_anchor": "call1-w"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#20638f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2677ac!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2980b9"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#b2cacc!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2980b9",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-8\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "active": true,
+              "newWindow": false,
+              "color": "#bdc3c7"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TOUR365.NET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-x"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018<a href=\"http://mobirise.com\" style=\"font-style: normal;\">TOUR365.NET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-y"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "RESERVATION",
+        "meta_descr": "365일 내내 프로모션\n전문 MD가 3FACT 기반으로 실용적인 상품, 실속이 있는 상품, 실질적인 제품을 소개합니다.\n",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#95a5a6",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#233f5b",
+            "overlayOpacity": 0.8
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "TOUR365.NET",
+          "subtitle": "행복한 여행은 전문 여행사와 함께하세요.",
+          "text": "\"교외를 포함한 ‘파리 데파르트망(Department)’은 면적 2,844㎢, 인구 약 1,041만 명(2009)이다. 오랫동안 센 데파르트망의 수도였으나 1964년부터 파리만으로 독립 데파르트망이 되었다. 프랑스의 정치·경제·교통·학술·문화의 중심지일 뿐만 아니라 세계의 문화 중심지로, ‘꽃의 도시’라고 불리며..\"",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_styles": {
+            ".mbr-section-text": {
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "testimonials3-z"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Paris Special",
+          "meta": "By <b>TOUR365</b>&nbsp;posted July 20, 2018",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-10"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "#fff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1200x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1200x1600-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-7-1920x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-7-1920x1280-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1920.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1920-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1200x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-1200x1600-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1285.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1285-800x535.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-8-1920x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-8-1920x1280-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1600x1066-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "ALL",
+          "_name": "gallery2",
+          "_anchor": "gallery2-11"
+        },
+        {
+          "_styles": {
+            "th": {
+              "color": "#9fa3a7"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": 4,
+            "colCount": "5",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "여행 일정",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>날짜</th><th>도시</th><th>교통</th><th>추천일정</th><th>식사</th></tr></thead><tbody><tr><td>1Day\n<br>9/30(일)</td><td>인 천\n<br>뮌 헨\n<br>슈반가우</td><td>08:30\n<br>\n<br>11:25\n<br>\n<br>15:35\n<br>16:30\n<br>\n<br>19:00</td><td>인천 국제공항 제1터미널 3층 출국청사 항공사 카운터미팅\n<br>인솔자 : 추후 별도 공지\n<br>✈ 루프트한자 항공(LH 719) 탑승하여 인천 국제공항 출발 \n<br>인천 ~ 뮌헨 : 비행 예정시간 약 11시간 10분 소요\n<br>뮌헨 국제공항 도착\n<br>입국수속 후 가이드 미팅\n<br>슈반가우로 이동 [약 150KM]\n<br>석식 후 \n<br>호텔 투숙 및 휴식\n<br>숙소 일급이상 호텔 혹은 동급 ★★★★</td><td>석:현지식</td></tr><tr><td>Caren Rials</td><td>35</td><td>2013-04-12</td><td>$445.500</td><td>$445.500</td></tr><tr><td>Leon Rogol</td><td>66</td><td>2016-05-22</td><td>$152.558</td><td>$152.558</td></tr><tr><td>Shala Barrera</td><td>70</td><td>2016-05-15</td><td>$459.146</td><td>$459.146</td></tr></tbody>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-12"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "PARIS",
+          "text": "Develop fully responsive, mobile-ready websites",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_anchor": "call1-13"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#20638f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2677ac!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2980b9"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#b2cacc!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2980b9",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-8\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "active": true,
+              "newWindow": false,
+              "color": "#bdc3c7"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TOUR365.NET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-14"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018<a href=\"http://mobirise.com\" style=\"font-style: normal;\">TOUR365.NET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-15"
         }
       ]
     }
