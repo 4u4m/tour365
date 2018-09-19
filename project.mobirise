@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PR365-clone",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -45,7 +45,7 @@
     "gdpr": "",
     "google-analytics": "",
     "sitemapSwitcher": "on",
-    "uniqCompNum": 45,
+    "uniqCompNum": 46,
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png"
   },
@@ -128,7 +128,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
@@ -827,15 +827,15 @@
           },
           "title": "특이사항",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseOneaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함</a>",
-          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseTwoaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">불포함사항</a>",
-          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseThreeaccordion1-y\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특전사항</a>",
+          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-19-init\" data-core=\"\" href=\"#collapseOneaccordion1-19\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함사항</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-19-init\" data-core=\"\" href=\"#collapseTwoaccordion1-19\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">불포함사항</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-19-init\" data-core=\"\" href=\"#collapseThreeaccordion1-19\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특전사항</a>",
           "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
           "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
-          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료 \r<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
-          "text2": "<p>싱글차지&nbsp;<br><span style=\"font-size: 1rem;\">개인사용비용 &nbsp;<br></span><span style=\"font-size: 1rem;\">명시된 관광지 외 입장료(일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">기타 매너팁(포터팁, 룸팁 등)</span></p>",
-          "text3": "<p>★ 식사시 현지지역 맥주 1잔 제공 \r<br><span style=\"font-size: 1rem;\">★ 맥주 테마투어 진행 &nbsp;<br></span><span style=\"font-size: 1rem;\">1)잉골슈타트 - 맥주순수령 스페셜투어(Spaten-Franziskaner Brauerei) &nbsp;<br></span><span style=\"font-size: 1rem;\">2)밤베르크 - 훈제맥주 브루어리 투어(Schlenkerla Rauchbier Tour) &nbsp;<br></span><span style=\"font-size: 1rem;\">3)하이델베르크 - 400년의 역사를 가진 대표적인 맥주집 방문(Vetter 예정) *맥주집의 경우 현지 사정으로 인하여 다른 곳으로 대체될 수 있습니다. &nbsp;<br></span><span style=\"font-size: 1rem;\">4)프라이징 - 독일에서 가장 오래된 브루어리(Weihenstephan Bier Tour) &nbsp;<br></span><span style=\"font-size: 1rem;\">★ 독일의 대표 축제인 맥주축제(옥토퍼페스트) 참관 및 식사</span></p>",
+          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실)&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조)&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조)&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text2": "<p>싱글차지\n<br><span style=\"font-size: 1rem;\">개인사용비용&nbsp;<br></span><span style=\"font-size: 1rem;\">명시된 관광지 외 입장료(일정표 참조)&nbsp;<br></span><span style=\"font-size: 1rem;\">기타 매너팁(포터팁, 룸팁 등)</span></p>",
+          "text3": "<p>★ 식사시 현지지역 맥주 1잔 제공\r<br><span style=\"font-size: 1rem;\"><br>★ 맥주 테마투어 진행 &nbsp;<br></span><span style=\"font-size: 1rem;\">1)잉골슈타트 - 맥주순수령 스페셜투어(Spaten-Franziskaner Brauerei) &nbsp;</span><span style=\"font-size: 1rem;\">&nbsp; &nbsp; <br>2)밤베르크 - 훈제맥주 브루어리 투어(Schlenkerla Rauchbier Tour) &nbsp;<br></span><span style=\"font-size: 1rem;\">&nbsp;3)하이델베르크 - 400년의 역사를 가진 대표적인 맥주집 방문(Vetter 예정) <br>*맥주집의 경우 현지 사정으로 인하여 다른 곳으로 대체될 수 있습니다. &nbsp;<br></span><span style=\"font-size: 1rem;\">&nbsp;4)프라이징 - 독일에서 가장 오래된 브루어리(Weihenstephan Bier Tour)&nbsp;<br></span><span style=\"font-size: 1rem;\"><br>★ 독일의 대표 축제인 맥주축제(옥토퍼페스트) 참관 및 식사<br>&nbsp;</span></p>",
           "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
@@ -844,7 +844,7 @@
             "Theme"
           ],
           "_name": "accordion1",
-          "_anchor": "accordion1-18"
+          "_anchor": "accordion1-19"
         },
         {
           "_styles": {
@@ -914,7 +914,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
@@ -1303,7 +1303,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
@@ -1692,7 +1692,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#shop1-c\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>TOUR</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">유럽</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">미주</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">동남아시아</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header8-e\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
