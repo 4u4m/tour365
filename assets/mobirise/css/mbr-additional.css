@@ -990,6 +990,10 @@ blockquote {
 }
 #content3-2i H3 {
   font-size: 30px;
+  text-align: right;
+}
+#content2-2j P {
+  color: #333333;
 }
 #table1-2m th {
   color: #9fa3a7;
@@ -1069,16 +1073,16 @@ blockquote {
 #menu-1h .dropdown-item[aria-expanded="true"] {
   color: #ffffff!important;
 }
-#content3-2n .mbr-section-title,
-#content3-2n .mbr-section-subtitle {
-  text-align: center;
+#call1-2v .display-1 {
+  font-weight: 700;
 }
-#content3-2n H3 {
-  font-size: 30px;
-  text-align: right;
+#call1-2v .lead {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
-#content2-2o BLOCKQUOTE {
-  text-align: center;
+#call1-2v .mbr-section-title {
+  font-size: 36px;
 }
 #form1-2u .mbr-section-subtitle {
   text-transform: uppercase;
