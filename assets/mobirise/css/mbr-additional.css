@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 
 
 body,
@@ -1331,6 +1332,7 @@ blockquote {
 #menu-33 .dropdown-item[aria-expanded="true"] {
   color: #ffffff!important;
 }
+
 #call1-35 .display-1 {
   font-weight: 700;
 }
@@ -1344,6 +1346,8 @@ blockquote {
 }
 #features9-39 .mbr-section-title {
   color: #ffffff;
+  font-family: 'Arvo', serif;
+  font-size: 60px;
 }
 #features9-39 H4 {
   color: #333333;

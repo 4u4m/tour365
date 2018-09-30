@@ -2262,7 +2262,10 @@
           "_anchor": "features9-39",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "font-size": "60px"
             },
             "H4": {
               "color": "#333333"
