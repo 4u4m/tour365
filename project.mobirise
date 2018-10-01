@@ -2212,7 +2212,7 @@
             "paddingBottom": "1",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#999999",
+            "bgColor": "#95a5a6",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
             "bgVideoRadio": false,
@@ -2293,7 +2293,7 @@
             "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#dddddd",
+            "bgColor": "#95a5a6",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -2304,7 +2304,7 @@
           },
           "title": "FAQ",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"text-black collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseOneaccordion1-3c\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함 사항</a>",
+          "title1": "<a role=\"button\" class=\"text-black\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseOneaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함 사항</a>",
           "title2": "<a role=\"button\" class=\"text-black collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseTwoaccordion1-3c\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">불포함 사항</a>",
           "title3": "<a role=\"button\" class=\"text-black\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseThreeaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특이사항</a>",
           "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
@@ -2324,7 +2324,7 @@
           "_anchor": "accordion1-3c",
           "_styles": {
             "P": {
-              "color": "#333333"
+              "color": "#ffffff"
             }
           }
         },
