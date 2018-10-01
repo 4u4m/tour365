@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "seacret",
-    "currentPage": "page8.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -71,13 +71,19 @@
             },
             ".mbr-section-text SPAN": {
               "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-section-text": {
+              "text-align": "center"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "buttonAlign": "right",
+            "buttonAlign": "center",
             "showArrow": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1440x1080.jpg",
@@ -93,9 +99,9 @@
             "overlayOpacity": "0.7"
           },
           "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
-          "title": "<a href=\"page4.html\" class=\"text-primary\">MEMBERSHIP</a><br><a href=\"page4.html\" class=\"text-primary\">FOR</a><br><a href=\"page4.html\" class=\"text-primary\">SEACRET</a>",
+          "title": "MEMBERSHIP<br>FOR<br>SEACRET",
           "text": "<span style=\"font-style: normal;\">베일 벗는 시크릿 그 아름다운 이야기</span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"assets/files/login.pdf\" data-toolbar=\"-mbrBtnMove\">LOG IN</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">LOG IN</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"

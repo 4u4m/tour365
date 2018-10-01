@@ -723,6 +723,12 @@ blockquote {
 #header1-2f .mbr-section-text SPAN {
   color: #ffffff;
 }
+#header1-2f .mbr-section-title {
+  text-align: center;
+}
+#header1-2f .mbr-section-text {
+  text-align: center;
+}
 #call1-p .display-1 {
   font-weight: 700;
 }
