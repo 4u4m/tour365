@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(../../../null);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 
 
@@ -1352,8 +1353,8 @@ blockquote {
 }
 #features9-39 .mbr-section-title {
   color: #ffffff;
-  font-family: 'Arvo', serif;
-  font-size: 60px;
+  font-family: 'NanumBarunGothic';
+  font-size: 36px;
 }
 #features9-39 H4 {
   color: #333333;
@@ -1622,7 +1623,7 @@ blockquote {
 }
 #menu-3o .link[aria-expanded="true"],
 #menu-3o .dropdown-item[aria-expanded="true"] {
-  color: #72d0f5!important;
+  color: #ffffff!important;
 }
 
 #call1-3p .display-1 {
