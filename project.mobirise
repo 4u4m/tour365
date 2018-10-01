@@ -1,17 +1,17 @@
 {
   "settings": {
     "name": "seacret",
-    "currentPage": "page8.html",
+    "currentPage": "page11.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
       "styling": {
-        "primaryColor": "#ffffff",
+        "primaryColor": "#0d92c6",
         "buttonsColor": "#ffffff",
         "secondaryColor": "#9b59b6",
         "successColor": "#2ecc71",
         "infoColor": "#72d0f5",
-        "warningColor": "#000000",
+        "warningColor": "#ffffff",
         "dangerColor": "#e74c3c",
         "titleFont": "NanumBarunGothic",
         "subtitleFont": "Open Sans",
@@ -24,7 +24,8 @@
         "#b2cacc",
         "#233f5b",
         "#72d0f5",
-        "#0d92c6"
+        "#0d92c6",
+        "#51b6dd"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -47,7 +48,7 @@
     "gdpr": "",
     "google-analytics": "",
     "sitemapSwitcher": "on",
-    "uniqCompNum": 119,
+    "uniqCompNum": 138,
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png"
   },
@@ -111,7 +112,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 6
+        "order": 9
       },
       "components": [
         {
@@ -386,7 +387,7 @@
           "title": "특이사항",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
           "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseOneaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함</a>",
-          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseTwoaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">불포함사항</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseTwoaccordion1-y\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">불포함사항</a>",
           "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseThreeaccordion1-y\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특전사항</a>",
           "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
@@ -437,13 +438,13 @@
               "color": "#ffffff"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#20638f"
+              "background": "#42c0f2"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2677ac!important"
+              "background": "#64cbf4!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2980b9"
+              "background": "#72d0f5"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -456,7 +457,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b2cacc!important"
+              "color": "#ffffff!important"
             }
           },
           "_params": {
@@ -472,7 +473,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -538,7 +539,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 8
+        "order": 11
       },
       "components": [
         {
@@ -855,13 +856,13 @@
           },
           "title": "특이사항",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
-          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseOneaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함</a>",
+          "title1": "<a role=\"button\" class=\"collapsed text-danger\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseOneaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함</a>",
           "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseTwoaccordion1-y\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">불포함사항</a>",
           "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-y-init\" data-core=\"\" href=\"#collapseThreeaccordion1-y\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특전사항</a>",
           "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
           "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
-          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료 \r<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
           "text2": "<p>싱글차지&nbsp;<br><span style=\"font-size: 1rem;\">개인사용비용 &nbsp;<br></span><span style=\"font-size: 1rem;\">명시된 관광지 외 입장료(일정표 참조) &nbsp;<br></span><span style=\"font-size: 1rem;\">기타 매너팁(포터팁, 룸팁 등)</span></p>",
           "text3": "<p>★ 식사시 현지지역 맥주 1잔 제공 \r<br><span style=\"font-size: 1rem;\">★ 맥주 테마투어 진행 &nbsp;<br></span><span style=\"font-size: 1rem;\">1)잉골슈타트 - 맥주순수령 스페셜투어(Spaten-Franziskaner Brauerei) &nbsp;<br></span><span style=\"font-size: 1rem;\">2)밤베르크 - 훈제맥주 브루어리 투어(Schlenkerla Rauchbier Tour) &nbsp;<br></span><span style=\"font-size: 1rem;\">3)하이델베르크 - 400년의 역사를 가진 대표적인 맥주집 방문(Vetter 예정) *맥주집의 경우 현지 사정으로 인하여 다른 곳으로 대체될 수 있습니다. &nbsp;<br></span><span style=\"font-size: 1rem;\">4)프라이징 - 독일에서 가장 오래된 브루어리(Weihenstephan Bier Tour) &nbsp;<br></span><span style=\"font-size: 1rem;\">★ 독일의 대표 축제인 맥주축제(옥토퍼페스트) 참관 및 식사</span></p>",
           "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
@@ -907,13 +908,13 @@
               "color": "#ffffff"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#20638f"
+              "background": "#42c0f2"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2677ac!important"
+              "background": "#64cbf4!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2980b9"
+              "background": "#72d0f5"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -926,7 +927,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b2cacc!important"
+              "color": "#ffffff!important"
             }
           },
           "_params": {
@@ -942,7 +943,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -1008,7 +1009,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 7
+        "order": 10
       },
       "components": [
         {
@@ -1131,7 +1132,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#ffffff!important"
+              "color": "#0d92c6!important"
             }
           },
           "_params": {
@@ -1147,7 +1148,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -1231,7 +1232,7 @@
             "bgColor": "#fff"
           },
           "title": "<br>박성재 님 환영합니다.",
-          "meta": "log out &nbsp;| &nbsp;admin",
+          "meta": "<a href=\"page10.html\" class=\"text-black\" style=\"font-style: normal;\">예약상황 보기</a> | log out  |  admin<br>",
           "_tags": [
             "Theme"
           ],
@@ -1263,7 +1264,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">RESERVATION</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">MY SCHEDULE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">RESERVATION</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"page8.html\" data-toolbar=\"-mbrBtnMove\">MY SCHEDULE</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1394,7 +1395,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#ffffff!important"
+              "color": "#0d92c6!important"
             }
           },
           "_params": {
@@ -1410,7 +1411,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -1448,7 +1449,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1651,7 +1652,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -1689,7 +1690,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1869,7 +1870,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -1907,7 +1908,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 5
+        "order": 8
       },
       "components": [
         {
@@ -2110,7 +2111,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -2148,7 +2149,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -2217,7 +2218,7 @@
             "overlayOpacity": 0.5
           },
           "mainTitle": "TIMELINE",
-          "mainSubtitle": "1차 일정표 날짜별 가이드",
+          "mainSubtitle": "[1차 일정표 다운로드]",
           "title1": "1. 김포국제공항 출발",
           "title2": "2.현지 도착",
           "title3": "3. 관광지 투어",
@@ -2276,45 +2277,50 @@
           }
         },
         {
-          "_styles": {
-            ".display-1": {
-              "font-weight": "700",
-              "text-transform": "uppercase",
-              "margin-top": "40px"
-            }
-          },
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "paddingTop": 3,
+            "showText": false,
+            "tabs": "3",
+            "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#666666",
-            "bgText": "SEACRET",
-            "bgTextStyle": "Montserrat",
-            "bgTextColor": "#333333",
-            "bgTextSize": 250,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.1
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
           },
-          "title": "1차 상세일정",
-          "text": "1차 상세일정을 다운로드 받아보세요.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOD</a>",
+          "title": "FAQ",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"text-warning\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseOneaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함 사항</a>",
+          "title2": "<a role=\"button\" class=\"text-warning\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseTwoaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">불포함 사항</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseThreeaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특이사항</a>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text2": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text3": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "animated-bg1",
-          "_anchor": "animated-bg1-3a"
+          "_name": "accordion1",
+          "_anchor": "accordion1-3c",
+          "_styles": {
+            "P": {
+              "color": "#333333"
+            }
+          }
         },
         {
           "_styles": {
@@ -2394,7 +2400,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#ffffff!important"
+              "color": "#0d92c6!important"
             }
           },
           "_params": {
@@ -2410,7 +2416,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
@@ -2438,6 +2444,894 @@
           ],
           "_name": "menu",
           "_anchor": "menu-38"
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "title": "1 차 일정표 임시",
+        "meta_descr": "seacret",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 7
+      },
+      "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1920x1920.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "1st Schedule<br><br>",
+          "text": "<br><br>SEACRET",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_anchor": "call1-3d"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true,
+            "blocks": "5",
+            "cardsColor": "#eeeeee",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#999999",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "mainTitle": "TIMELINE",
+          "mainSubtitle": "[1차 일정표 다운로드]",
+          "title1": "1. 김포국제공항 출발",
+          "title2": "2.현지 도착",
+          "title3": "3. 관광지 투어",
+          "title4": "4. 관광지 투어",
+          "title5": "5. 서울 도착",
+          "title6": "6. Multi Homepages",
+          "title7": "7. Responsive Design",
+          "title8": "8. Smart Watch",
+          "title9": "9. Design out of the box",
+          "title10": "10. Awesome Reports",
+          "title11": "11. Design out of the box",
+          "title12": "12. Awesome Reports",
+          "date1": "2018. 11. 13.",
+          "date2": "2018. 11. 14.",
+          "date3": "2018. 11. 15.",
+          "date4": "2018. 11. 16.",
+          "date5": "2018. 11. 17.",
+          "date6": "6 June 2016",
+          "date7": "7 July 2016",
+          "date8": "8 August 2016",
+          "date9": "9 September 2016",
+          "date10": "10 October 2016",
+          "date11": "11 November 2016",
+          "date12": "12 December 2016",
+          "text1": "제1청사 11시 집결<br>12시 30분 출발",
+          "text2": "11: 00 현지도착<br>12 : 00 호텔 체크인<br>13 : 00 식사 및 관광<br>16 : 00 호텔 도착<br>19 : 00 자유 투어 &nbsp;",
+          "text3": "11: 00 관광지 도착\n<br>12 : 00 현지 식사<br>13 : 00 관광지 투어<br>16 : 00 호텔 도착\n<br>19 : 00 자유 투어 &nbsp;",
+          "text4": "11: 00 관광지 도착 \n<br>12 : 00 현지 식사\n<br>13 : 00 관광지 투어\n<br>16 : 00 호텔 도착 \n<br>19 : 00 자유 투어 &nbsp;",
+          "text5": "11: 00 체크 아웃&nbsp;<br>12 : 00 공항 이동<br>13 : 00 기내식<br>16 : 00 서울 도착&nbsp;",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features9",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "font-size": "60px"
+            },
+            "H4": {
+              "color": "#333333"
+            },
+            "P": {
+              "color": "#333333"
+            }
+          },
+          "_anchor": "features9-3e"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "FAQ",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"collapsed text-warning\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseOneaccordion1-3c\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함 사항</a>",
+          "title2": "<a role=\"button\" class=\"text-warning\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseTwoaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">불포함 사항</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseThreeaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특이사항</a>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text2": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text3": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "color": "#333333"
+            }
+          },
+          "_anchor": "accordion1-3f"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 3,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#72d0f5",
+            "bgText": "SEACRET",
+            "bgTextStyle": "Montserrat",
+            "bgTextColor": "#51b6dd",
+            "bgTextSize": 250,
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "1차 상세일정",
+          "text": "1차 상세일정을 다운로드 받아보세요.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOD</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "animated-bg1",
+          "_anchor": "animated-bg1-3g"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 SEACRET",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-3h"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#42c0f2"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#64cbf4!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#72d0f5"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#72d0f5!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#72d0f5",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "color": "#bdc3c7"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEACRET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-3i"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "title": "MYRESERVATION",
+        "meta_descr": "seacret",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "30px",
+              "text-align": "right"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "7",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "<br>나의 예약 상황",
+          "meta": "<a href=\"page8.html\" class=\"text-black\" style=\"font-style: normal;\">일정표</a> | <a href=\"page6.html\" class=\"text-black\" style=\"font-style: normal;\">NOTECE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-3j"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>‘박성재’님은 현재 예약 전입니다.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "color": "#333333"
+            }
+          },
+          "_anchor": "content2-3k"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">RESERVATION</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">MY SCHEDULE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-3l"
+        },
+        {
+          "_styles": {
+            "th": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-title": {
+              "font-size": "22px",
+              "text-align": "left",
+              "color": "#666666"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": "3",
+            "colCount": "2",
+            "paddingTop": "2",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "1:1 문의 및 알림",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Title</th><th>Date</th></tr></thead><tbody><tr><td>여권 정보를 잘못 입력했어요.</td><td>2018. 10. 20</td></tr><tr><td><b>RE</b> 여권 정보를 잘못 입력했어요.</td><td>2018. 10. 20</td></tr><tr><td>예약을 다시 진행하면 어떻게 해야 하나요?</td><td>2018. 10. 20</td></tr></tbody>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-3m"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 SEACRET",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-3n"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#42c0f2"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#64cbf4!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#72d0f5"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#72d0f5!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#72d0f5",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "color": "#bdc3c7"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEACRET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-3o"
+        }
+      ]
+    },
+    "page11.html": {
+      "settings": {
+        "title": "2차 일정표",
+        "meta_descr": "seacret",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-11-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "2nd Schedule<br><br>",
+          "text": "<br><br>SEACRET",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">see live demo</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_anchor": "call1-3p"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true,
+            "blocks": "5",
+            "cardsColor": "#eeeeee",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#999999",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "mainTitle": "TIMELINE",
+          "mainSubtitle": "[2차 일정표 다운로드]",
+          "title1": "1. 김포국제공항 출발",
+          "title2": "2.현지 도착",
+          "title3": "3. 관광지 투어",
+          "title4": "4. 관광지 투어",
+          "title5": "5. 서울 도착",
+          "title6": "6. Multi Homepages",
+          "title7": "7. Responsive Design",
+          "title8": "8. Smart Watch",
+          "title9": "9. Design out of the box",
+          "title10": "10. Awesome Reports",
+          "title11": "11. Design out of the box",
+          "title12": "12. Awesome Reports",
+          "date1": "2018. 11. 13.",
+          "date2": "2018. 11. 14.",
+          "date3": "2018. 11. 15.",
+          "date4": "2018. 11. 16.",
+          "date5": "2018. 11. 17.",
+          "date6": "6 June 2016",
+          "date7": "7 July 2016",
+          "date8": "8 August 2016",
+          "date9": "9 September 2016",
+          "date10": "10 October 2016",
+          "date11": "11 November 2016",
+          "date12": "12 December 2016",
+          "text1": "제1청사 11시 집결<br>12시 30분 출발",
+          "text2": "11: 00 현지도착<br>12 : 00 호텔 체크인<br>13 : 00 식사 및 관광<br>16 : 00 호텔 도착<br>19 : 00 자유 투어 &nbsp;",
+          "text3": "11: 00 관광지 도착\n<br>12 : 00 현지 식사<br>13 : 00 관광지 투어<br>16 : 00 호텔 도착\n<br>19 : 00 자유 투어 &nbsp;",
+          "text4": "11: 00 관광지 도착 \n<br>12 : 00 현지 식사\n<br>13 : 00 관광지 투어\n<br>16 : 00 호텔 도착 \n<br>19 : 00 자유 투어 &nbsp;",
+          "text5": "11: 00 체크 아웃&nbsp;<br>12 : 00 공항 이동<br>13 : 00 기내식<br>16 : 00 서울 도착&nbsp;",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features9",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "font-size": "60px"
+            },
+            "H4": {
+              "color": "#333333"
+            },
+            "P": {
+              "color": "#333333"
+            }
+          },
+          "_anchor": "features9-3q"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "FAQ",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"text-warning\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseOneaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>포함 사항</a>",
+          "title2": "<a role=\"button\" class=\"text-warning\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseTwoaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">불포함 사항</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-3c-init\" data-core=\"\" href=\"#collapseThreeaccordion1-3c\" aria-expanded=\"true\" aria-controls=\"collapseThree\">특이사항</a>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text2": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text3": "<p>국제선 왕복항공료+TAX 및 유류할증료 \n<br><span style=\"font-size: 1rem;\">전일정 호텔 (2인 1실) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표상의 식사 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">전 일정 전용차량 및 한국어가이드 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">일정표 내 관광지 입장료 (일정표 참조) &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">기사/가이드 팁 &nbsp;&nbsp;<br></span><span style=\"font-size: 1rem;\">여행자 보험(2억원 동부화재)</span></p>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "color": "#333333"
+            }
+          },
+          "_anchor": "accordion1-3r"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 SEACRET",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-3s"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#42c0f2"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#64cbf4!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#72d0f5"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#999999!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#72d0f5",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page5.html\" aria-expanded=\"false\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>RESERVATION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header8-e\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>COMMUNITY</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">&nbsp; &nbsp; NOTICE<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">&nbsp; &nbsp; 1차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page11.html\">&nbsp; &nbsp; 2차 일정표</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 공항교통편</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 세관신고서 작성 안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 환율<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 날씨</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 호텔안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">&nbsp; &nbsp; 현지 쇼핑 및 식당</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>MY PAGE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "color": "#bdc3c7"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEACRET</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-3t"
         }
       ]
     }
